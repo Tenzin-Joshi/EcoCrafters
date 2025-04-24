@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sustainable Crop & Farming Practices</title>
+  <link rel="shortcut icon" type="x-icon" href="https://agriplanting.com/wp-content/uploads/2024/03/Advantages-and-Disadvantages-of-Sustainable-Agriculture-1024x683.jpg">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0fdf4;
+      overflow-x: hidden;
+      color: #1b5e20;
+    }
+
+    .slideshow-container {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 100vw;
+      padding: 60px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      transition: left 1s ease-in-out;
+      background: #ffffff;
+      box-shadow: inset 0 0 50px rgba(0,0,0,0.05);
+    }
+
+    .slide.active {
+      left: 0;
+    }
+
+    .slide.prev {
+      left: -100vw;
+    }
+
+    .slide-content {
+      flex: 1;
+      padding-right: 40px;
+    }
+
+    .slide-image {
+      width: 40%;
+      height: 60%;
+      background: #c8e6c9;
+      border: 3px dashed #81c784;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #2e7d32;
+      font-size: 18px;
+      font-style: italic;
+    }
+
+    .slide-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #2e7d32;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .nav-buttons {
+      position: fixed;
+      bottom: 30px;
+      width: 100%;
+      text-align: center;
+      z-index: 10;
+    }
+
+    .nav-buttons button {
+      background-color: #66bb6a;
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      margin: 0 15px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .nav-buttons button:hover {
+      background-color: #388e3c;
+    }
+
+    @media (max-width: 768px) {
+      .slide {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+      }
+
+      .slide-image {
+        width: 80%;
+        height: 200px;
+        margin-top: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+  <div class="slide active">
+    <div class="slide-content">
+      <h1>🌱 What is Sustainable Farming?- EcoCrafters</h1>
+      <p>Sustainable farming is more than just avoiding chemicals. It's about protecting ecosystems, improving soil health, and making sure farming can last for generations. These methods reduce greenhouse gas emissions, conserve water, and increase biodiversity on farmland.</p>
+    </div>
+    <div class="slide-image">
+      <img src="https://static.wixstatic.com/media/cbc1ea_9d53078c927f43c4bae3d4184a190408~mv2.png/v1/fill/w_568,h_332,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/cbc1ea_9d53078c927f43c4bae3d4184a190408~mv2.png" alt="Sustainable Farming">
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-content">
+      <h1>🔁 Crop Rotation & Diversity</h1>
+      <p>By rotating crops seasonally, farmers reduce soil depletion and disrupt pest cycles. Introducing plant diversity supports better yields and resilience to disease and climate shifts.</p>
+    </div>
+    <div class="slide-image">
+      <img src="https://ik.imagekit.io/tractorkarvan/tr:f-webp/images/Blogs/Crop/Crop-Rotation-Blog__1_.jpg" alt="Crop Rotation">
+    </div>
+  </div>
+
+  <!-- New Slide: Agroforestry Integration -->
+<div class="slide">
+    <div class="slide-content">
+      <h1>🌳 Agroforestry Integration</h1>
+      <p>Agroforestry blends trees with crops or livestock, improving biodiversity, stabilizing soil, and capturing carbon. It mimics natural ecosystems while enhancing farm productivity.</p>
+    </div>
+    <div class="slide-image">
+      <img src="https://www.biomassconnect.org/wp-content/uploads/2023/11/Agroforestry-Picture-1-scaled.jpg" alt="Agroforestry">
+    </div>
+  </div>
+  
+  <!-- New Slide: Precision Farming -->
+  <div class="slide">
+    <div class="slide-content">
+      <h1>📡 Precision Farming</h1>
+      <p>Using GPS, AI, and sensors, farmers optimize inputs like water and fertilizer with pinpoint accuracy. This reduces waste, boosts efficiency, and promotes sustainability.</p>
+    </div>
+    <div class="slide-image">
+      <img src="https://getfarms.in/assets/images/blog/precision-farming.webp" alt="Precision Farming">
+    </div>
+  </div>
+  
+  <!-- New Slide: Community-Supported Agriculture -->
+  <div class="slide">
+    <div class="slide-content">
+      <h1>👨‍🌾 Community-Supported Agriculture (CSA)</h1>
+      <p>CSA programs connect farmers directly with local consumers. This reduces food miles, supports small farms, and creates transparency in food production.</p>
+    </div>
+    <div class="slide-image">
+      <img src="https://www.lowimpact.org/wp-content/uploads/csa.jpg" alt="CSA">
+    </div>
+  </div>
+  
+
+  <div class="slide">
+    <div class="slide-content">
+      <h1>🪱 Soil Health & Composting</h1>
+      <p>Composting organic matter returns vital nutrients to the soil. Techniques like no-till farming and cover cropping preserve soil structure and prevent erosion, leading to long-term fertility.</p>
+    </div>
+    <div class="slide-image">
+      <img src="https://martinsfeedmill.com/wp-content/uploads/2022/05/composting-GettyImages-1200151618-b4e3aefac23943979a29936d8e73f65c.jpg" alt="Composting">
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-content">
+      <h1>💧 Water-Smart Irrigation</h1>
+      <p>Using drip irrigation, sensors, and water recycling helps save water and keep crops hydrated only when necessary. Sustainable practices ensure clean water remains available for all.</p>
+    </div>
+    <div class="slide-image">
+      <img src="https://ardc.edu.au/wp-content/uploads/2022/09/park-sprinkler-580x360.jpg" alt="Irrigation">
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-content">
+      <h1>🧪 Organic & Natural Pest Control</h1>
+      <p>Instead of synthetic pesticides, farmers use natural predators, traps, and plant-based repellents. This minimizes chemical runoff and helps pollinators like bees thrive.</p>
+    </div>
+    <div class="slide-image">
+      <img src="https://cdn.shopify.com/s/files/1/0673/1697/3862/files/stale.jpg?v=1690956842" alt="Pest Control">
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-content">
+      <h1>🌍 A Future We Can Grow</h1>
+      <p>Sustainable agriculture empowers communities, feeds families, and heals the planet. By supporting these practices, we cultivate a greener future for everyone.</p>
+    </div>
+    <div class="slide-image">
+      <img src="https://assets.entrepreneur.com/content/3x2/2000/1676041382-GettyImages-1395122379.jpg" alt="Sustainable Future">
+    </div>
+  </div>
+
+  <!-- New Slide: FAQs -->
+<div class="slide">
+    <div class="slide-content">
+      <h1>❓ Frequently Asked Questions</h1>
+      <p><strong>Q: What makes farming "sustainable"?</strong><br>
+        A: It minimizes environmental impact, preserves resources, and ensures long-term productivity.</p>
+      <p><strong>Q: Can small farms practice sustainable methods?</strong><br>
+        A: Absolutely. Many sustainable techniques are affordable and scalable.</p>
+      <p><strong>Q: Does organic always mean sustainable?</strong><br>
+        A: Not always. Organic avoids chemicals, but sustainability includes water use, energy, and social factors too.</p>
+      <p><strong>Q: How can I support sustainable agriculture?</strong><br>
+        A: Buy local, organic when possible, join a CSA, or support eco-conscious brands.</p>
+    </div>
+    <div class="slide-image">
+      <img src="https://neilpatel.com/wp-content/uploads/2021/12/Get-Your-FAQs-Straight-Convert-Your-Curious-Customers.jpg" alt="FAQs">
+    </div>
+  </div>
+  
+  <!-- New Slide: Credits and Thank You -->
+  <div class="slide">
+    <div class="slide-content">
+      <h1>💀🙏💀 Credits & Sponsors</h1>
+      <p><strong>Research & Content:</strong> Tenzin Joshi 8D</p>
+      <p><strong>Image Scout:</strong> Tenzin Joshi 8D</p>
+      <p><strong>Made By:</strong> Tenzin Joshi 8D</p>
+      <p><strong>Presented By:</strong> Tenzin Joshi 8D</p>
+      <p><strong>HTML,CSS & JS By</strong> Tenzin Joshi 8D</p>
+      <p><strong>Sponsors:</strong></p>
+      <ul>
+        <li>Webdev By Tenzin</li>
+        <li>Rizzify By Tenzin</li>
+        <li>Zen Infotec LTD. By Tenzin</li>
+        <li>VS Code</li>
+        <li>Github</li>
+      </ul>
+      <p>Thank you for learning about sustainable farming with us!</p>
+    </div>
+    <div class="slide-image">
+      <img src="thx.png" alt="Thank You">
+    </div>
+  </div>
+  
+
+</div>
+
+<!-- Fixed-position navigation buttons -->
+<div class="nav-buttons">
+  <button onclick="navigateSlide(-1)">Previous</button>
+  <button onclick="navigateSlide(1)">Next</button>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+
+  function navigateSlide(direction) {
+    slides[currentSlide].classList.remove('active');
+    slides[currentSlide].classList.remove('prev');
+
+    const newSlide = (currentSlide + direction + slides.length) % slides.length;
+
+    if (direction < 0) {
+      slides[currentSlide].classList.add('prev');
+    }
+
+    currentSlide = newSlide;
+    slides[currentSlide].classList.add('active');
+  }
+</script>
+
+</body>
+</html>
